@@ -1,0 +1,3 @@
+! - negação
+&& - conjunção - as duas tem q ser verdadeiro
+|| - disjunção - precisa apenas que um seja verdadeiro

@@ -1,0 +1,5 @@
+5 == 5 true 
+5 == '5' true // aqui ele confere apenas a grandesa e não o tipo
+5 === "5" false  - aqui ele vê se são identicos também o tipo se é string
+5 === 5 true
+5 !== 5 true

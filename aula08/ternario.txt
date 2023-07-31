@@ -1,0 +1,3 @@
+média >=7 ? aprovado : reprovado
+? - quando o teste for verdadeiro
+: quando o teste for falso
