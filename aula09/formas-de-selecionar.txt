@@ -1,0 +1,11 @@
+por marca
+por ID
+por Nome
+por Classe
+por Seletor
+
+getElementTag
+elementID é representada por #
+elementName
+elementClasse é representada por .
+elementSelector

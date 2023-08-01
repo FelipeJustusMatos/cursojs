@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div>Clique em mim</div>
+    <script>
+      var p1 = window.document.getElementsByTagName("p")[1];
+      window.document.write("<br/>Link atual<br/>");
+      window.document.write(window.document.URL);
+      window.document.write("<br/><br/>Está escrito assim: " + p1.innerText);
+      p1.style.color = "red";
+      window.document.write(
+        "<br/>Para manter o negrito se faz assim: " + p1.innerHTML
+      );
+    </script>
+  </body>
+</html>
